@@ -21,6 +21,7 @@ const init = function () {
   currentScore = 0;
   activePlayer = 0;
   playing = true;
+  console.log(playing);
 
   score0El.textContent = 0;
   score1El.textContent = 0;
